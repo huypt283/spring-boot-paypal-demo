@@ -1,0 +1,4 @@
+## _This is a Paypal payment demo project with Spring Boot_.
+- To run this project, you need to create a personal account at `www.paypal.com`, then sign in to `developer.paypal.com`, go to `Dashboard` > `Sandbox` > `Accounts` and create a **Sandbox Business Account**. Continue to `My Apps & Credentials` to create a new **Sandbox Merchant App** with the newly created **Sandbox Business Account**.
+- Copy the generated application _**CLIENT ID**_ to `paypal.client.app` and _**SECRET**_ to `paypal.client.secret` in the `application.properties` file. Then run this application.
+- Create a few **Sandbox Personal Accounts** at `www.sandbox.paypal.com` to test the app's payment function and view transaction history.
